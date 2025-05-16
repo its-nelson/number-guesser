@@ -15,7 +15,7 @@ def play_game():
             print("Too high.")
             return total_attempts - 1
         elif num < random_number:
-            print("Too low")
+            print("Too low.")
             return total_attempts - 1
         return None
 
